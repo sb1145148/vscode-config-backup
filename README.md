@@ -118,6 +118,7 @@ Get-Content "$src\extensions.txt" | ForEach-Object { code --install-extension $_
 | --- | --- |
 | `backup-vscode-config.ps1` | 备份脚本本体 |
 | `setup-task.ps1` | 注册 / 删除计划任务 |
+| `presets/` | **手动留的满意配置**（见 [presets/README.md](presets/README.md)） |
 | `README.md` | 这份说明 |
 
 两个 `.ps1` 都是 **UTF-8 with BOM** —— 没有 BOM 时 Windows PowerShell 5.1 会按 GBK 解码，

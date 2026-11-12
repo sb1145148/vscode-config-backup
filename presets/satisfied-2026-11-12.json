@@ -1,0 +1,80 @@
+{
+    "[markdown]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        }
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.md": "vscode.markdown.editor"
+    },
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "disable-hardware-acceleration": false,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "git.confirmSync": false,
+    "files.watcherExclude": {
+        "**/meme-backup/**": true,
+        "**/vk-1/**": true,
+        "**/node_modules/**": true,
+        "**/.git/objects/**": true
+    },
+    "search.exclude": {
+        "**/meme-backup/**": true,
+        "**/vk-1/**": true
+    },
+    "git.autoRepositoryDetection": "openEditors",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "'JetBrains Mono', 'Sarasa Mono SC', 'Microsoft YaHei UI', Consolas, monospace",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 1.5,
+    "editor.letterSpacing": 0,
+    "terminal.integrated.fontFamily": "'Sarasa Mono SC', 'JetBrains Mono', Consolas, monospace",
+    "terminal.integrated.fontSize": 13,
+    "workbench.colorCustomizations": {
+        "editor.foreground": "#e8e8e8",
+        "editorLineNumber.foreground": "#7a7a7a",
+        "editorLineNumber.activeForeground": "#c8c8c8",
+        "editorCursor.foreground": "#ffcc66",
+        "editorIndentGuide.background1": "#34343f"
+    },
+    "background.enabled": true,
+    
+    "background.fullscreen": {
+
+        
+        "images": ["D:/Backup/Pictures/vscode-bg/anime/touhou-21-topcrop.jpg"],
+        "opacity": 0.2,
+        "size": "cover",
+        "position": "center",
+        "styles": [],
+        "interval": 0,
+        "random": false
+    },
+    "background.editor": {
+        "useFront": true,
+        "style": {
+            "background-position": "100% 100%",
+            "background-size": "auto",
+            "opacity": 0.6
+        },
+        "styles": [],
+        "images": [],
+        "interval": 0,
+        "random": false
+    },
+    "workbench.colorTheme": "Default High Contrast"
+}
